@@ -1,0 +1,248 @@
+## Footprint report - date 2026-07-20T23:29:11
+## Printed by KiCad version 10.0.3
+## Unit = inches, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner  5.233465  2.360867
+$EndBOARD
+
+$MODULE D1
+reference D1
+value LED
+footprint LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_Clear
+attribut none
+position  5.511811  2.714961  orientation -90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000 size  0.070866  0.070866 orientation 270.00
+drill  0.035433
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  0.100000  0.000000 size  0.070866  0.070866 orientation 270.00
+drill  0.035433
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE D1
+
+$MODULE D2
+reference D2
+value LED
+footprint LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_Clear
+attribut none
+position  5.505315  2.450000  orientation -90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000 size  0.070866  0.070866 orientation 270.00
+drill  0.035433
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  0.100000  0.000000 size  0.070866  0.070866 orientation 270.00
+drill  0.035433
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE D2
+
+$MODULE D3
+reference D3
+value LED
+footprint LED_SMD:LED_1206_3216Metric
+attribut smd
+position  6.574803  2.771654  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer front
+position -0.055118  0.000000 size  0.049213  0.068898 orientation 270.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Roundrect Layer front
+position  0.055118  0.000000 size  0.049213  0.068898 orientation 270.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE D3
+
+$MODULE J1
+reference J1
+value ~
+footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal
+attribut none
+position  6.795866  2.555906  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000 size  0.066929  0.066929 orientation 0.00
+drill  0.039370
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  0.000000  0.100000 size  0.066929  0.066929 orientation 0.00
+drill  0.039370
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position  0.000000  0.200000 size  0.066929  0.066929 orientation 0.00
+drill  0.039370
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE J1
+
+$MODULE R1
+reference R1
+value 10k
+footprint Resistor_SMD:R_1206_3216Metric
+attribut smd
+position  5.649606  2.775591  orientation 90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer front
+position -0.057579  0.000000 size  0.044291  0.068898 orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Roundrect Layer front
+position  0.057579  0.000000 size  0.044291  0.068898 orientation 90.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE R1
+
+$MODULE R2
+reference R2
+value 10k
+footprint Resistor_SMD:R_1206_3216Metric
+attribut smd
+position  5.649606  2.537894  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer front
+position -0.057579  0.000000 size  0.044291  0.068898 orientation 270.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Roundrect Layer front
+position  0.057579  0.000000 size  0.044291  0.068898 orientation 270.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE R2
+
+$MODULE R3
+reference R3
+value 10k
+footprint Resistor_SMD:R_1210_3225Metric
+attribut smd
+position  6.574803  2.518209  orientation -90.00
+layer front
+$PAD "1"
+Shape Roundrect Layer front
+position -0.057579  0.000000 size  0.044291  0.104331 orientation 270.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Roundrect Layer front
+position  0.057579  0.000000 size  0.044291  0.104331 orientation 270.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE R3
+
+$MODULE RV1
+reference RV1
+value 10k
+footprint Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+attribut none
+position  6.318898  2.539370  orientation 90.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000 size  0.056693  0.056693 orientation 90.00
+drill  0.031496
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position -0.100000  0.000000 size  0.056693  0.056693 orientation 90.00
+drill  0.031496
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position -0.200000  0.000000 size  0.056693  0.056693 orientation 90.00
+drill  0.031496
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE RV1
+
+$MODULE U1
+reference U1
+value ~
+footprint Package_DIP:DIP-8_W7.62mm
+attribut none
+position  5.822047  2.516535  orientation 0.00
+layer front
+$PAD "1"
+Shape Roundrect Layer both
+position  0.000000  0.000000 size  0.062992  0.062992 orientation 0.00
+drill  0.031496
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  0.000000  0.100000 size  0.062992  0.062992 orientation 0.00
+drill  0.031496
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position  0.000000  0.200000 size  0.062992  0.062992 orientation 0.00
+drill  0.031496
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Circle Layer both
+position  0.000000  0.300000 size  0.062992  0.062992 orientation 0.00
+drill  0.031496
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Circle Layer both
+position  0.300000  0.300000 size  0.062992  0.062992 orientation 0.00
+drill  0.031496
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Circle Layer both
+position  0.300000  0.200000 size  0.062992  0.062992 orientation 0.00
+drill  0.031496
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Circle Layer both
+position  0.300000  0.100000 size  0.062992  0.062992 orientation 0.00
+drill  0.031496
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Circle Layer both
+position  0.300000  0.000000 size  0.062992  0.062992 orientation 0.00
+drill  0.031496
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE U1
+
+$EndDESCRIPTION

@@ -1,0 +1,56 @@
+PCB statistics report
+=====================
+- Date: 01-07-2026 01:26:25
+- Project: IR SENSOR
+- Board name: IR SENSOR
+
+Board
+-----
+- Dimensions: unknown
+- Area: unknown
+- Front copper area: 0.429 in²
+- Back copper area: 0.077 in²
+- Min track clearance: 0.0079 in
+- Min track width: 0.0079 in
+- Min drill diameter: 0.0118 in
+- Board stackup thickness: 0.0630 in
+
+- Front footprint area: 0.601 in²
+- Back footprint area: 0.095 in²
+- Front component density: unknown
+- Back component density: unknown
+Pads
+----
+- Through hole: 18
+- SMD: 8
+- Connector: 0
+- NPTH: 0
+- Castellated: 0
+- Press-fit: 0
+
+Vias
+----
+- Through vias: 4
+- Blind vias: 0
+- Buried vias: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          5 |         0 |     5 |
+|SMD:          |          4 |         0 |     4 |
+|Unspecified:  |          0 |         0 |     0 |
+|Total:        |          9 |         0 |     9 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|------------|
+|    11 | Round | 0.0315 in | 0.0315 in |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 0.0354 in | 0.0354 in |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 0.0118 in | 0.0118 in |    PTH |     Via |        F.Cu |       B.Cu |
+|     3 | Round | 0.0394 in | 0.0394 in |    PTH |     Pad |        F.Cu |       B.Cu |
